@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F41B9FF3209FA78965CCCFE /* libPods-LBasicUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3885D575499E78A63E9143E6 /* libPods-LBasicUtil.a */; };
+		AAA789D727BA4BB600397A22 /* LCameraPhotoTake.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA789D627BA4BB600397A22 /* LCameraPhotoTake.m */; };
+		AAA789DA27BB5C5A00397A22 /* LPhotoTileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA789D927BB5C5A00397A22 /* LPhotoTileViewController.m */; };
 		AAC74C3E26DC8BE2002C855A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74C3D26DC8BE2002C855A /* AppDelegate.m */; };
 		AAC74C4126DC8BE2002C855A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74C4026DC8BE2002C855A /* SceneDelegate.m */; };
 		AAC74C4426DC8BE2002C855A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74C4326DC8BE2002C855A /* ViewController.m */; };
@@ -16,6 +19,32 @@
 		AAC74C4F26DC8BE3002C855A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74C4E26DC8BE3002C855A /* main.m */; };
 		AAC74C5926DC8BE3002C855A /* LBasicUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74C5826DC8BE3002C855A /* LBasicUtilTests.m */; };
 		AAC74C6426DC8BE3002C855A /* LBasicUtilUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74C6326DC8BE3002C855A /* LBasicUtilUITests.m */; };
+		AAC74C7426DC8F64002C855A /* LCamerPhotoSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74C7226DC8F64002C855A /* LCamerPhotoSelect.m */; };
+		AAC74C7826DCAB8F002C855A /* LProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74C7726DCAB8F002C855A /* LProgressHUD.m */; };
+		AAC74C7C26DCAC02002C855A /* AESelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74C7B26DCAC02002C855A /* AESelectController.m */; };
+		AAC74C7F26DCAD73002C855A /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74C7E26DCAD73002C855A /* UIImage+Extension.m */; };
+		AAC74C8326DCC0B1002C855A /* CameraPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74C8226DCC0B1002C855A /* CameraPickViewController.m */; };
+		AAC74C8626DCC0C1002C855A /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74C8526DCC0C1002C855A /* BasicViewController.m */; };
+		AAC74C8A26DCE5A3002C855A /* LImageBroswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74C8926DCE5A3002C855A /* LImageBroswerViewController.m */; };
+		AAC74C8D26DCE5D5002C855A /* NSDate+time.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74C8B26DCE5D5002C855A /* NSDate+time.m */; };
+		AAC74C9026E0A185002C855A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74C8F26E0A185002C855A /* UIView+Extension.m */; };
+		AAC74C9626E0CCA0002C855A /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74C9526E0CCA0002C855A /* NSString+Extension.m */; };
+		AAC74C9926E1D0B8002C855A /* yuanshen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAC74C9826E1D0B8002C855A /* yuanshen.jpg */; };
+		AAC74C9B26E1E88B002C855A /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC74C9A26E1E88B002C855A /* images.xcassets */; };
+		AAC74CA026E5FAC1002C855A /* SendVerifyCodeBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74C9F26E5FAC1002C855A /* SendVerifyCodeBtn.m */; };
+		AAC74CA726E604C9002C855A /* LLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74CA626E604C9002C855A /* LLoginViewController.m */; };
+		AAC74CAB26E6118A002C855A /* TimerCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74CAA26E6118A002C855A /* TimerCountDown.m */; };
+		AAC74CB226E61235002C855A /* LTimeTextClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74CB126E61235002C855A /* LTimeTextClockViewController.m */; };
+		AAC74CBB26E70C76002C855A /* IACircularSliderTrackLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74CB726E70C76002C855A /* IACircularSliderTrackLayer.m */; };
+		AAC74CBC26E70C76002C855A /* IACircularSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74CB826E70C76002C855A /* IACircularSlider.m */; };
+		AAC74CBD26E70C76002C855A /* IACircleSliderThumbLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74CBA26E70C76002C855A /* IACircleSliderThumbLayer.m */; };
+		AAC74CC326E70F53002C855A /* LSLiderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74CC226E70F53002C855A /* LSLiderViewController.m */; };
+		AAC74CC626E71905002C855A /* LBasicSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74CC526E71905002C855A /* LBasicSlider.m */; };
+		AAC74CCF26E732A5002C855A /* YYBasicTickView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74CC926E732A5002C855A /* YYBasicTickView.m */; };
+		AAC74CD026E732A5002C855A /* NoticeSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74CCA26E732A5002C855A /* NoticeSelectView.m */; };
+		AAC74CD126E732A5002C855A /* NoticeShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74CCB26E732A5002C855A /* NoticeShowView.m */; };
+		AAC74CD426E73B4D002C855A /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74CD326E73B4D002C855A /* UIViewController+Extension.m */; };
+		AAC74CD726E73BB0002C855A /* LReadAgreeMarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC74CD626E73BB0002C855A /* LReadAgreeMarkViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +65,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E749DE75212501A4026158F /* Pods-LBasicUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBasicUtil.debug.xcconfig"; path = "Target Support Files/Pods-LBasicUtil/Pods-LBasicUtil.debug.xcconfig"; sourceTree = "<group>"; };
+		2CD8DA3770820682466000AE /* Pods-LBasicUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBasicUtil.release.xcconfig"; path = "Target Support Files/Pods-LBasicUtil/Pods-LBasicUtil.release.xcconfig"; sourceTree = "<group>"; };
+		3885D575499E78A63E9143E6 /* libPods-LBasicUtil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LBasicUtil.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA789D527BA4BB600397A22 /* LCameraPhotoTake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCameraPhotoTake.h; sourceTree = "<group>"; };
+		AAA789D627BA4BB600397A22 /* LCameraPhotoTake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCameraPhotoTake.m; sourceTree = "<group>"; };
+		AAA789D827BB5C5900397A22 /* LPhotoTileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPhotoTileViewController.h; sourceTree = "<group>"; };
+		AAA789D927BB5C5A00397A22 /* LPhotoTileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPhotoTileViewController.m; sourceTree = "<group>"; };
 		AAC74C3926DC8BE2002C855A /* LBasicUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBasicUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC74C3C26DC8BE2002C855A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AAC74C3D26DC8BE2002C855A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +90,57 @@
 		AAC74C5F26DC8BE3002C855A /* LBasicUtilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBasicUtilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC74C6326DC8BE3002C855A /* LBasicUtilUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBasicUtilUITests.m; sourceTree = "<group>"; };
 		AAC74C6526DC8BE3002C855A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC74C7226DC8F64002C855A /* LCamerPhotoSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCamerPhotoSelect.m; sourceTree = "<group>"; };
+		AAC74C7326DC8F64002C855A /* LCamerPhotoSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCamerPhotoSelect.h; sourceTree = "<group>"; };
+		AAC74C7626DCAB8F002C855A /* LProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LProgressHUD.h; sourceTree = "<group>"; };
+		AAC74C7726DCAB8F002C855A /* LProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LProgressHUD.m; sourceTree = "<group>"; };
+		AAC74C7A26DCAC02002C855A /* AESelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESelectController.h; sourceTree = "<group>"; };
+		AAC74C7B26DCAC02002C855A /* AESelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESelectController.m; sourceTree = "<group>"; };
+		AAC74C7D26DCAD73002C855A /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		AAC74C7E26DCAD73002C855A /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		AAC74C8126DCC0B1002C855A /* CameraPickViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraPickViewController.h; sourceTree = "<group>"; };
+		AAC74C8226DCC0B1002C855A /* CameraPickViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraPickViewController.m; sourceTree = "<group>"; };
+		AAC74C8426DCC0C1002C855A /* BasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		AAC74C8526DCC0C1002C855A /* BasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		AAC74C8826DCE5A3002C855A /* LImageBroswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LImageBroswerViewController.h; sourceTree = "<group>"; };
+		AAC74C8926DCE5A3002C855A /* LImageBroswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LImageBroswerViewController.m; sourceTree = "<group>"; };
+		AAC74C8B26DCE5D5002C855A /* NSDate+time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+time.m"; sourceTree = "<group>"; };
+		AAC74C8C26DCE5D5002C855A /* NSDate+time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+time.h"; sourceTree = "<group>"; };
+		AAC74C8E26E0A185002C855A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		AAC74C8F26E0A185002C855A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		AAC74C9126E0A19F002C855A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AAC74C9426E0CCA0002C855A /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		AAC74C9526E0CCA0002C855A /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		AAC74C9826E1D0B8002C855A /* yuanshen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yuanshen.jpg; sourceTree = "<group>"; };
+		AAC74C9A26E1E88B002C855A /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		AAC74C9E26E5FAC1002C855A /* SendVerifyCodeBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendVerifyCodeBtn.h; sourceTree = "<group>"; };
+		AAC74C9F26E5FAC1002C855A /* SendVerifyCodeBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendVerifyCodeBtn.m; sourceTree = "<group>"; };
+		AAC74CA526E604C9002C855A /* LLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLoginViewController.h; sourceTree = "<group>"; };
+		AAC74CA626E604C9002C855A /* LLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLoginViewController.m; sourceTree = "<group>"; };
+		AAC74CA926E6118A002C855A /* TimerCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerCountDown.h; sourceTree = "<group>"; };
+		AAC74CAA26E6118A002C855A /* TimerCountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerCountDown.m; sourceTree = "<group>"; };
+		AAC74CB026E61235002C855A /* LTimeTextClockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTimeTextClockViewController.h; sourceTree = "<group>"; };
+		AAC74CB126E61235002C855A /* LTimeTextClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTimeTextClockViewController.m; sourceTree = "<group>"; };
+		AAC74CB526E70C76002C855A /* IACircularSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IACircularSlider.h; sourceTree = "<group>"; };
+		AAC74CB626E70C76002C855A /* IACircleSliderThumbLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IACircleSliderThumbLayer.h; sourceTree = "<group>"; };
+		AAC74CB726E70C76002C855A /* IACircularSliderTrackLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACircularSliderTrackLayer.m; sourceTree = "<group>"; };
+		AAC74CB826E70C76002C855A /* IACircularSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACircularSlider.m; sourceTree = "<group>"; };
+		AAC74CB926E70C76002C855A /* IACircularSliderTrackLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IACircularSliderTrackLayer.h; sourceTree = "<group>"; };
+		AAC74CBA26E70C76002C855A /* IACircleSliderThumbLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACircleSliderThumbLayer.m; sourceTree = "<group>"; };
+		AAC74CC126E70F53002C855A /* LSLiderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSLiderViewController.h; sourceTree = "<group>"; };
+		AAC74CC226E70F53002C855A /* LSLiderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSLiderViewController.m; sourceTree = "<group>"; };
+		AAC74CC426E71905002C855A /* LBasicSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBasicSlider.h; sourceTree = "<group>"; };
+		AAC74CC526E71905002C855A /* LBasicSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBasicSlider.m; sourceTree = "<group>"; };
+		AAC74CC926E732A5002C855A /* YYBasicTickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYBasicTickView.m; sourceTree = "<group>"; };
+		AAC74CCA26E732A5002C855A /* NoticeSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticeSelectView.m; sourceTree = "<group>"; };
+		AAC74CCB26E732A5002C855A /* NoticeShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticeShowView.m; sourceTree = "<group>"; };
+		AAC74CCC26E732A5002C855A /* NoticeShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticeShowView.h; sourceTree = "<group>"; };
+		AAC74CCD26E732A5002C855A /* NoticeSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticeSelectView.h; sourceTree = "<group>"; };
+		AAC74CCE26E732A5002C855A /* YYBasicTickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYBasicTickView.h; sourceTree = "<group>"; };
+		AAC74CD226E73B4D002C855A /* UIViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		AAC74CD326E73B4D002C855A /* UIViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		AAC74CD526E73BB0002C855A /* LReadAgreeMarkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LReadAgreeMarkViewController.h; sourceTree = "<group>"; };
+		AAC74CD626E73BB0002C855A /* LReadAgreeMarkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LReadAgreeMarkViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F41B9FF3209FA78965CCCFE /* libPods-LBasicUtil.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +169,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D17F4277AD03C75C9E51020 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E749DE75212501A4026158F /* Pods-LBasicUtil.debug.xcconfig */,
+				2CD8DA3770820682466000AE /* Pods-LBasicUtil.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AAC74C3026DC8BE2002C855A = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +185,8 @@
 				AAC74C5726DC8BE3002C855A /* LBasicUtilTests */,
 				AAC74C6226DC8BE3002C855A /* LBasicUtilUITests */,
 				AAC74C3A26DC8BE2002C855A /* Products */,
+				8D17F4277AD03C75C9E51020 /* Pods */,
+				BC4A44481C5D0BC973E55581 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +203,17 @@
 		AAC74C3B26DC8BE2002C855A /* LBasicUtil */ = {
 			isa = PBXGroup;
 			children = (
+				AAC74C4226DC8BE2002C855A /* ViewController.h */,
+				AAC74C4326DC8BE2002C855A /* ViewController.m */,
+				AAC74C9226E0CA78002C855A /* Basic */,
+				AAC74C8026DCC091002C855A /* BasicUtil */,
+				AAC74C7926DCABF3002C855A /* Category */,
+				AAC74C7526DCAB77002C855A /* ProgressHUD */,
 				AAC74C3C26DC8BE2002C855A /* AppDelegate.h */,
 				AAC74C3D26DC8BE2002C855A /* AppDelegate.m */,
 				AAC74C3F26DC8BE2002C855A /* SceneDelegate.h */,
 				AAC74C4026DC8BE2002C855A /* SceneDelegate.m */,
-				AAC74C4226DC8BE2002C855A /* ViewController.h */,
-				AAC74C4326DC8BE2002C855A /* ViewController.m */,
+				AAC74C9126E0A19F002C855A /* PrefixHeader.pch */,
 				AAC74C4526DC8BE2002C855A /* Main.storyboard */,
 				AAC74C4826DC8BE3002C855A /* Assets.xcassets */,
 				AAC74C4A26DC8BE3002C855A /* LaunchScreen.storyboard */,
@@ -137,6 +241,192 @@
 			path = LBasicUtilUITests;
 			sourceTree = "<group>";
 		};
+		AAC74C7126DC8F64002C855A /* CameraPhotoSelect */ = {
+			isa = PBXGroup;
+			children = (
+				AAC74C7326DC8F64002C855A /* LCamerPhotoSelect.h */,
+				AAC74C7226DC8F64002C855A /* LCamerPhotoSelect.m */,
+				AAA789D527BA4BB600397A22 /* LCameraPhotoTake.h */,
+				AAA789D627BA4BB600397A22 /* LCameraPhotoTake.m */,
+				AAA789D827BB5C5900397A22 /* LPhotoTileViewController.h */,
+				AAA789D927BB5C5A00397A22 /* LPhotoTileViewController.m */,
+			);
+			path = CameraPhotoSelect;
+			sourceTree = "<group>";
+		};
+		AAC74C7526DCAB77002C855A /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				AAC74C7626DCAB8F002C855A /* LProgressHUD.h */,
+				AAC74C7726DCAB8F002C855A /* LProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		AAC74C7926DCABF3002C855A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AAC74C8E26E0A185002C855A /* UIView+Extension.h */,
+				AAC74C8F26E0A185002C855A /* UIView+Extension.m */,
+				AAC74C8C26DCE5D5002C855A /* NSDate+time.h */,
+				AAC74C8B26DCE5D5002C855A /* NSDate+time.m */,
+				AAC74C7D26DCAD73002C855A /* UIImage+Extension.h */,
+				AAC74C7E26DCAD73002C855A /* UIImage+Extension.m */,
+				AAC74C9426E0CCA0002C855A /* NSString+Extension.h */,
+				AAC74C9526E0CCA0002C855A /* NSString+Extension.m */,
+				AAC74CD226E73B4D002C855A /* UIViewController+Extension.h */,
+				AAC74CD326E73B4D002C855A /* UIViewController+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		AAC74C8026DCC091002C855A /* BasicUtil */ = {
+			isa = PBXGroup;
+			children = (
+				AAC74CC726E73254002C855A /* ReadAgreeMarkSelect */,
+				AAC74CB326E70C56002C855A /* CircleSlider */,
+				AAC74CA826E61165002C855A /* TimeTextClockShow */,
+				AAC74C9D26E2087A002C855A /* VerifyCodeTimeout */,
+				AAC74C9C26E20862002C855A /* CameraSelect */,
+			);
+			path = BasicUtil;
+			sourceTree = "<group>";
+		};
+		AAC74C8726DCE5A3002C855A /* ImageBrowserScale */ = {
+			isa = PBXGroup;
+			children = (
+				AAC74C8826DCE5A3002C855A /* LImageBroswerViewController.h */,
+				AAC74C8926DCE5A3002C855A /* LImageBroswerViewController.m */,
+			);
+			path = ImageBrowserScale;
+			sourceTree = "<group>";
+		};
+		AAC74C9226E0CA78002C855A /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				AAC74C7A26DCAC02002C855A /* AESelectController.h */,
+				AAC74C7B26DCAC02002C855A /* AESelectController.m */,
+				AAC74C8426DCC0C1002C855A /* BasicViewController.h */,
+				AAC74C8526DCC0C1002C855A /* BasicViewController.m */,
+				AAC74CC426E71905002C855A /* LBasicSlider.h */,
+				AAC74CC526E71905002C855A /* LBasicSlider.m */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		AAC74C9726E1D06A002C855A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AAC74C9826E1D0B8002C855A /* yuanshen.jpg */,
+				AAC74C9A26E1E88B002C855A /* images.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		AAC74C9C26E20862002C855A /* CameraSelect */ = {
+			isa = PBXGroup;
+			children = (
+				AAC74C7126DC8F64002C855A /* CameraPhotoSelect */,
+				AAC74C8726DCE5A3002C855A /* ImageBrowserScale */,
+				AAC74C9726E1D06A002C855A /* Sources */,
+				AAC74C8126DCC0B1002C855A /* CameraPickViewController.h */,
+				AAC74C8226DCC0B1002C855A /* CameraPickViewController.m */,
+			);
+			path = CameraSelect;
+			sourceTree = "<group>";
+		};
+		AAC74C9D26E2087A002C855A /* VerifyCodeTimeout */ = {
+			isa = PBXGroup;
+			children = (
+				AAC74CA426E604B9002C855A /* VerifyCodeBtn */,
+				AAC74CA526E604C9002C855A /* LLoginViewController.h */,
+				AAC74CA626E604C9002C855A /* LLoginViewController.m */,
+			);
+			path = VerifyCodeTimeout;
+			sourceTree = "<group>";
+		};
+		AAC74CA426E604B9002C855A /* VerifyCodeBtn */ = {
+			isa = PBXGroup;
+			children = (
+				AAC74C9E26E5FAC1002C855A /* SendVerifyCodeBtn.h */,
+				AAC74C9F26E5FAC1002C855A /* SendVerifyCodeBtn.m */,
+			);
+			path = VerifyCodeBtn;
+			sourceTree = "<group>";
+		};
+		AAC74CA826E61165002C855A /* TimeTextClockShow */ = {
+			isa = PBXGroup;
+			children = (
+				AAC74CAF26E611F9002C855A /* TimeCountDown */,
+				AAC74CB026E61235002C855A /* LTimeTextClockViewController.h */,
+				AAC74CB126E61235002C855A /* LTimeTextClockViewController.m */,
+			);
+			path = TimeTextClockShow;
+			sourceTree = "<group>";
+		};
+		AAC74CAF26E611F9002C855A /* TimeCountDown */ = {
+			isa = PBXGroup;
+			children = (
+				AAC74CA926E6118A002C855A /* TimerCountDown.h */,
+				AAC74CAA26E6118A002C855A /* TimerCountDown.m */,
+			);
+			path = TimeCountDown;
+			sourceTree = "<group>";
+		};
+		AAC74CB326E70C56002C855A /* CircleSlider */ = {
+			isa = PBXGroup;
+			children = (
+				AAC74CB426E70C76002C855A /* CircleSlider */,
+				AAC74CC126E70F53002C855A /* LSLiderViewController.h */,
+				AAC74CC226E70F53002C855A /* LSLiderViewController.m */,
+			);
+			path = CircleSlider;
+			sourceTree = "<group>";
+		};
+		AAC74CB426E70C76002C855A /* CircleSlider */ = {
+			isa = PBXGroup;
+			children = (
+				AAC74CB526E70C76002C855A /* IACircularSlider.h */,
+				AAC74CB826E70C76002C855A /* IACircularSlider.m */,
+				AAC74CB626E70C76002C855A /* IACircleSliderThumbLayer.h */,
+				AAC74CBA26E70C76002C855A /* IACircleSliderThumbLayer.m */,
+				AAC74CB726E70C76002C855A /* IACircularSliderTrackLayer.m */,
+				AAC74CB926E70C76002C855A /* IACircularSliderTrackLayer.h */,
+			);
+			path = CircleSlider;
+			sourceTree = "<group>";
+		};
+		AAC74CC726E73254002C855A /* ReadAgreeMarkSelect */ = {
+			isa = PBXGroup;
+			children = (
+				AAC74CC826E732A5002C855A /* ReadNoticeVIew */,
+				AAC74CD526E73BB0002C855A /* LReadAgreeMarkViewController.h */,
+				AAC74CD626E73BB0002C855A /* LReadAgreeMarkViewController.m */,
+			);
+			path = ReadAgreeMarkSelect;
+			sourceTree = "<group>";
+		};
+		AAC74CC826E732A5002C855A /* ReadNoticeVIew */ = {
+			isa = PBXGroup;
+			children = (
+				AAC74CCD26E732A5002C855A /* NoticeSelectView.h */,
+				AAC74CCA26E732A5002C855A /* NoticeSelectView.m */,
+				AAC74CCC26E732A5002C855A /* NoticeShowView.h */,
+				AAC74CCB26E732A5002C855A /* NoticeShowView.m */,
+				AAC74CCE26E732A5002C855A /* YYBasicTickView.h */,
+				AAC74CC926E732A5002C855A /* YYBasicTickView.m */,
+			);
+			path = ReadNoticeVIew;
+			sourceTree = "<group>";
+		};
+		BC4A44481C5D0BC973E55581 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3885D575499E78A63E9143E6 /* libPods-LBasicUtil.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +434,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAC74C6826DC8BE3002C855A /* Build configuration list for PBXNativeTarget "LBasicUtil" */;
 			buildPhases = (
+				F93087182769B77CEA91356B /* [CP] Check Pods Manifest.lock */,
 				AAC74C3526DC8BE2002C855A /* Sources */,
 				AAC74C3626DC8BE2002C855A /* Frameworks */,
 				AAC74C3726DC8BE2002C855A /* Resources */,
+				A82E1A06E141C8C56FACA4B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +491,7 @@
 		AAC74C3126DC8BE2002C855A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = L;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					AAC74C3826DC8BE2002C855A = {
@@ -241,7 +534,9 @@
 			files = (
 				AAC74C4C26DC8BE3002C855A /* LaunchScreen.storyboard in Resources */,
 				AAC74C4926DC8BE3002C855A /* Assets.xcassets in Resources */,
+				AAC74C9926E1D0B8002C855A /* yuanshen.jpg in Resources */,
 				AAC74C4726DC8BE2002C855A /* Main.storyboard in Resources */,
+				AAC74C9B26E1E88B002C855A /* images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,15 +556,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A82E1A06E141C8C56FACA4B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LBasicUtil/Pods-LBasicUtil-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LBasicUtil/Pods-LBasicUtil-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LBasicUtil/Pods-LBasicUtil-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F93087182769B77CEA91356B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LBasicUtil-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AAC74C3526DC8BE2002C855A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC74CB226E61235002C855A /* LTimeTextClockViewController.m in Sources */,
+				AAC74C7826DCAB8F002C855A /* LProgressHUD.m in Sources */,
+				AAC74C8A26DCE5A3002C855A /* LImageBroswerViewController.m in Sources */,
+				AAC74CD426E73B4D002C855A /* UIViewController+Extension.m in Sources */,
+				AAC74C9026E0A185002C855A /* UIView+Extension.m in Sources */,
+				AAA789D727BA4BB600397A22 /* LCameraPhotoTake.m in Sources */,
 				AAC74C4426DC8BE2002C855A /* ViewController.m in Sources */,
+				AAC74C7426DC8F64002C855A /* LCamerPhotoSelect.m in Sources */,
+				AAC74CCF26E732A5002C855A /* YYBasicTickView.m in Sources */,
+				AAC74CBD26E70C76002C855A /* IACircleSliderThumbLayer.m in Sources */,
+				AAC74CA726E604C9002C855A /* LLoginViewController.m in Sources */,
+				AAC74CA026E5FAC1002C855A /* SendVerifyCodeBtn.m in Sources */,
+				AAC74CBB26E70C76002C855A /* IACircularSliderTrackLayer.m in Sources */,
+				AAC74C8626DCC0C1002C855A /* BasicViewController.m in Sources */,
+				AAC74CD026E732A5002C855A /* NoticeSelectView.m in Sources */,
+				AAC74C8D26DCE5D5002C855A /* NSDate+time.m in Sources */,
+				AAC74CAB26E6118A002C855A /* TimerCountDown.m in Sources */,
 				AAC74C3E26DC8BE2002C855A /* AppDelegate.m in Sources */,
+				AAA789DA27BB5C5A00397A22 /* LPhotoTileViewController.m in Sources */,
 				AAC74C4F26DC8BE3002C855A /* main.m in Sources */,
+				AAC74C7C26DCAC02002C855A /* AESelectController.m in Sources */,
+				AAC74CBC26E70C76002C855A /* IACircularSlider.m in Sources */,
 				AAC74C4126DC8BE2002C855A /* SceneDelegate.m in Sources */,
+				AAC74CC626E71905002C855A /* LBasicSlider.m in Sources */,
+				AAC74CD126E732A5002C855A /* NoticeShowView.m in Sources */,
+				AAC74CD726E73BB0002C855A /* LReadAgreeMarkViewController.m in Sources */,
+				AAC74C7F26DCAD73002C855A /* UIImage+Extension.m in Sources */,
+				AAC74C8326DCC0B1002C855A /* CameraPickViewController.m in Sources */,
+				AAC74CC326E70F53002C855A /* LSLiderViewController.m in Sources */,
+				AAC74C9626E0CCA0002C855A /* NSString+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +738,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +791,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,10 +801,13 @@
 		};
 		AAC74C6926DC8BE3002C855A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E749DE75212501A4026158F /* Pods-LBasicUtil.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PZ9D6VC3P;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LBasicUtil/PrefixHeader.pch";
 				INFOPLIST_FILE = LBasicUtil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,10 +821,13 @@
 		};
 		AAC74C6A26DC8BE3002C855A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CD8DA3770820682466000AE /* Pods-LBasicUtil.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8PZ9D6VC3P;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LBasicUtil/PrefixHeader.pch";
 				INFOPLIST_FILE = LBasicUtil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

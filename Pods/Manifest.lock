@@ -1,0 +1,30 @@
+PODS:
+  - Masonry (1.1.0)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SVProgressHUD (2.2.5)
+  - Toast (4.0.0)
+
+DEPENDENCIES:
+  - Masonry
+  - SDWebImage
+  - SVProgressHUD (~> 2.2.5)
+  - Toast
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - SDWebImage
+    - SVProgressHUD
+    - Toast
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+
+PODFILE CHECKSUM: 97017c945b27adc1525a776e2b06505acdbb6ee5
+
+COCOAPODS: 1.10.0
