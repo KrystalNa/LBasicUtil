@@ -15,11 +15,13 @@
 @property(nonatomic,strong)UIColor *tickColor;
 
 @property(nonatomic, assign) BOOL isShowBorder;
+
+@property(nonatomic,strong)UIColor *borderColor;
 @end
 
 @implementation YYBasicTickView
 
-- (instancetype)initWithFrame:(CGRect)frame backGroundColor:(UIColor *)backColor tickColor:(UIColor *)tickColor isShowBorder:(BOOL)isShowBorder
+- (instancetype)initWithFrame:(CGRect)frame backGroundColor:(UIColor *)backColor tickColor:(UIColor *)tickColor isShowBorder:(BOOL)isShowBorder borderColor:(UIColor *)borderColor
 {
     if (self = [super initWithFrame:frame])
     {
@@ -27,6 +29,7 @@
         self.backColor = backColor;
         self.tickColor = tickColor;
         self.isShowBorder = isShowBorder;
+        self.borderColor = borderColor;
         self.isTick = NO;
         self.userInteractionEnabled = YES;
         UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction)];
@@ -91,7 +94,7 @@
         CGPoint center = CGPointMake(rect.size.width*0.5,rect.size.height*0.5);
         UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:center radius:(rect.size.width*0.5 - rect.size.width*0.03-_insets) startAngle:0 endAngle:M_PI*2 clockwise:YES];
         //设置颜色
-        [self.tickColor setStroke];
+        [self.borderColor setStroke];
         [path stroke];
     }
 }

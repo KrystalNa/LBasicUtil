@@ -52,7 +52,7 @@
     
     CGFloat space = 5;
 //    [self addSubview:self.tickBtn];
-    YYBasicTickView *basicTick = [[YYBasicTickView alloc] initWithFrame:CGRectMake(0, 0, 50, 50) backGroundColor:[UIColor whiteColor] tickColor:[UIColor blueColor] isShowBorder:YES];
+    YYBasicTickView *basicTick = [[YYBasicTickView alloc] initWithFrame:CGRectMake(0, 0, 50, 50) backGroundColor:[UIColor blueColor] tickColor:[UIColor whiteColor] isShowBorder:YES borderColor:[UIColor blueColor]];
     basicTick.centerY = self.height/2;
     basicTick.isTick = [self isAllTipsChoice];
     basicTick.insets = 14;

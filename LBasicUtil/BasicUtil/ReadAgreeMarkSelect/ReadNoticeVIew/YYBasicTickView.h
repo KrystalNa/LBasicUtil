@@ -23,6 +23,6 @@
 
 @property(nonatomic,weak)id<YYBasicTickViewDelegate> basicTickDelegate;
 
-- (instancetype)initWithFrame:(CGRect)frame backGroundColor:(UIColor *)backColor tickColor:(UIColor *)tickColor isShowBorder:(BOOL)isShowBorder;
+- (instancetype)initWithFrame:(CGRect)frame backGroundColor:(UIColor *)backColor tickColor:(UIColor *)tickColor isShowBorder:(BOOL)isShowBorder borderColor:(UIColor *)borderColor;
 @property(nonatomic, assign) CGFloat insets;
 @end
